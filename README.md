@@ -17,5 +17,6 @@ A versatile C++ CLI application developed on **Arch Linux**. This tool is design
 ```zsh
 g++ Peax.cpp -o peax
 ./peax
+```
 ---
 *Developed by **Mtitla**.*
