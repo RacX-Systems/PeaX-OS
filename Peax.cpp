@@ -231,7 +231,7 @@ while (true)
         break;
     }
 }
-    cout << "Running Peax on Arch Linux (Kernel 6.19)" << endl;
+    cout << "Developed on Arch Linux (Kernel 6.19)" << endl;
     cout << "PC: HP 250 G1 | CPU: Core i3-2348M" << endl;
     return 0;
 }
