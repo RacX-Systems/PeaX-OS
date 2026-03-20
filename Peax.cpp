@@ -22,7 +22,8 @@ while (true)
     cout<<"2.Number Calculator"<<endl;
     cout<<"3.ASCII Calculator"<<endl;
     cout<<"4.Charcter Encrypter"<<endl;
-    cout<<"5.Exit"<<endl;
+    cout<<"5.Odd/Even number Checker"<<endl;
+    cout<<"6.Exit"<<endl;
     cout<<" "<<endl;
     cout<<"=============================================="<<endl;
     cout<<" "<<endl;
@@ -216,6 +217,28 @@ while (true)
     }
     else if (choice==5)
     {
+        cout<<"Odd/Even number Checker"<<endl;
+        cout<<" "<<endl;
+        int numb;
+        cout<<"Enter Your number: ";
+        cin>>numb;
+        cout<<" "<<endl;
+        cout<<"==============================="<<endl;
+        cout<<" "<<endl;
+        if (numb%2==0)
+        {
+            cout<<numb<<" is an even number"<<endl;
+        }
+        else
+        {
+            cout<<numb<<" is an odd number"<<endl;
+        }
+        cout<<" "<<endl;
+        cout<<"==============================="<<endl;
+        cout<<" "<<endl;
+    }
+    else if (choice==6)
+    {
         break;
     }
     else
@@ -230,8 +253,9 @@ while (true)
     {
         break;
     }
+
 }
-    cout << "Developed on Arch Linux (Kernel 6.19)" << endl;
-    cout << "PC: HP 250 G1 | CPU: Core i3-2348M" << endl;
+    cout<<"Developed on Arch Linux (Kernel 6.19)" << endl;
+    cout<<"PC: HP 250 G1 | CPU: Core i3-2348M" << endl;
     return 0;
 }
