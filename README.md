@@ -9,6 +9,7 @@ A versatile C++ CLI application developed on **Arch Linux**. This tool is design
 - **Simple Encryption:** Basic character encryption for privacy.
 - **Odd/Even number Checker:** Quickly identifies if a number is **Odd** or **Even**.
 - **User Experience:** Includes ASCII art headers, screen clearing, and input validation to prevent crashes.
+- **Phone Suggester:** It suggests a phone based on your budget and usage. 
 ## 💻 Tech Stack
 - **Language:** C++
 - **OS:** Arch Linux (Core i3 2nd Gen)
